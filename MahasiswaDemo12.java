@@ -21,10 +21,6 @@ public class MahasiswaDemo12 {
             sc.nextLine(); 
             System.out.println("-----------------------------"); 
         }
-        
-        for (int i=0; i<3; i++) {
-            System.out.println("Data mahasiswa ke-" + (i+1));
-            arrayofMahasiswa12[i].cetakInfo();
+
         }
     }
-}
