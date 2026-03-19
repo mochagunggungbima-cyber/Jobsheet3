@@ -1,4 +1,4 @@
-public class MataKuliah12
+public class MataKuliah12 {
     public String kode;
     public String nama;
     public int sks;
@@ -10,3 +10,4 @@ public class MataKuliah12
         this.sks = sks;
         this.jumlahJam = jumlahJam;
     }
+}
