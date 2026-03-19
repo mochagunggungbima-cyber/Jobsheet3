@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Mahasiswa12 {
+public class Mahasiswa12{
     public String nim;
     public String nama;
     public String kelas;
@@ -35,6 +35,13 @@ public class MahasiswaDemo12 {
             System.out.println("IPK: " + arrayofMahasiswa12[i].ipk);
             System.out.println("-----------------------------"); 
         }
+    public void cetakInfo() {
+        System.out.println("NIM   : " + nim);
+        System.out.println("Nama  : " + nama);
+        System.out.println("Kelas : " + kelas);
+        System.out.println("IPK   : " + ipk);
+        System.out.println("-----------------------------");
     }
+}
 }
 }
